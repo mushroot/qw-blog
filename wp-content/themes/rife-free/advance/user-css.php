@@ -1523,7 +1523,7 @@ button[type=\"submit\"]:focus{
 
 }
 .page .title-bar.outside .overlay-color{
-    $page_title_bar_bg_color
+    // $page_title_bar_bg_color
     padding-top: $page_title_bar_space_width;
     padding-bottom: $page_title_bar_space_width;
 

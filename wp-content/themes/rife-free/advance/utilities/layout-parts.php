@@ -871,7 +871,7 @@ if(!function_exists('apollo13framework_get_title_bar')){
         }
 
 		//main title
-		$html .= '<h1 class="page-title entry-title"'.apollo13framework_get_schema_args('headline').'>'.$title.'</h1>';//sometimes we add html here, so don't escape!
+		// $html .= '<h1 class="page-title entry-title"'.apollo13framework_get_schema_args('headline').'>'.$title.'</h1>';//sometimes we add html here, so don't escape!
 
 		$html .='</div>';//.titles
 

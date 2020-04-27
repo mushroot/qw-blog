@@ -4,7 +4,7 @@
   "fp_work": "",
   "appearance_body_image": "",
   "appearance_body_image_fit": "cover",
-  "appearance_body_bg_color": "#e9e9e9",
+  "appearance_body_bg_color": "#ffffff",
   "layout_type": "full",
   "custom_cursor": "default",
   "cursor_select": "empty_black_white.png",

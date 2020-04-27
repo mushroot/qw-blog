@@ -3451,8 +3451,8 @@ a.rsswidget{
 .entry-summary > p,
 .wpb_text_column p{
 	margin: 0;
-	padding: .85em 0;
 	font-size: .85em;
+	line-height: 1.75em;
 	color: #999;
 }
 .real-content > p:first-child{
@@ -4058,7 +4058,7 @@ div.attachment .wp-video{
 }
 .bricks-frame .formatter,
 .post_theme_options .formatter{
-	padding: 40px;
+	padding: 20px;
 }
 .bricks-frame .formatter{
 	background-color: #fff;
