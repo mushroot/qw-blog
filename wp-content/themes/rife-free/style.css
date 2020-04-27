@@ -3527,6 +3527,8 @@ a.rsswidget{
 .wpb_text_column p{
 	margin: 0;
 	padding: .85em 0;
+	font-size: .85em;
+	color: #999;
 }
 .real-content > p:first-child{
 	padding-top: 0;
@@ -4091,7 +4093,7 @@ div.attachment .wp-video{
 .posts-list .layout-full_fixed #content,
 .posts-list .layout-full_padding #content,
 .posts-list .layout-parted .content-box{
-	background-color: transparent;
+	background-color: #fff;
 }
 .posts-list.search-no-results .layout-full #content,
 .posts-list.search-no-results .layout-full_fixed #content,
@@ -4195,7 +4197,7 @@ div.attachment .wp-video{
 }
 h2.post-title {
 	color: #222;
-	font-size: 1.57em;
+	font-size: 1em;
 	line-height: 1.3;
 	word-wrap: break-word;
 }

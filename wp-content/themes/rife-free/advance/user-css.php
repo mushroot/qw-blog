@@ -1729,7 +1729,7 @@ button[type=\"submit\"]:focus{
     $blog_title_bar_image_fit
 }
 .posts-list .title-bar.outside .overlay-color{
-    $blog_title_bar_bg_color
+    // $blog_title_bar_bg_color
     padding-top: $blog_title_bar_space_width;
     padding-bottom: $blog_title_bar_space_width;
 

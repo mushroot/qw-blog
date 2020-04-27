@@ -831,7 +831,7 @@ if(!function_exists('apollo13framework_get_title_bar')){
 			//blog
 			elseif ( $home ){
 				if(get_option('page_for_posts') === '0'){
-					$title =  esc_html__( 'Blog', 'rife-free' );
+					$title =  esc_html__( '', 'rife-free' );
 				}
 				else{
 					$title = get_the_title(get_option('page_for_posts'));

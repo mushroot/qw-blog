@@ -82,7 +82,7 @@ if(!function_exists( 'apollo13framework_get_post_meta_data' )){
         }
 
 	    if(strlen($return)){
-		    return '<div class="post-meta">'.$return.'</div>';
+		    return null; //'<div class="post-meta">'.$return.'</div>';
 	    }
 
         return '';
@@ -348,9 +348,9 @@ if(!function_exists('apollo13framework_has_excerpt_read_more')){
     function apollo13framework_has_excerpt_read_more($content) {
         global $post, $apollo13framework_a13;
 
-        if( $apollo13framework_a13->get_option( 'blog_read_more', 'on' ) === 'on' && has_excerpt() ){
-            $content .= '<p> <a class="more-link" href="'. esc_url( get_permalink($post->ID) ) . '">'.esc_html__( 'Read more', 'rife-free' ).'</a></p>';
-        }
+        // if( $apollo13framework_a13->get_option( 'blog_read_more', 'on' ) === 'on' && has_excerpt() ){
+        //     $content .= '<p> <a class="more-link" href="'. esc_url( get_permalink($post->ID) ) . '">'.esc_html__( 'Read more', 'rife-free' ).'</a></p>';
+        // }
 
         return $content;
     }
