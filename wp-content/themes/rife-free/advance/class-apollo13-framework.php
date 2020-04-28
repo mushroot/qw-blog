@@ -1,5 +1,7 @@
 <?php
-
+// 引入文件
+// 此文件在linux上无法正确引入
+require(ABSPATH . '/wp-content/themes/rife-free/advance/inc/class-tgm-plugin-activation.php');
 /**
  * Framework class, to keep all settings encapsulated
  * Access to this singleton is via global $apollo13framework_a13

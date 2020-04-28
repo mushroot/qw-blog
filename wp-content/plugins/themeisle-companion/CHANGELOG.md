@@ -1,4 +1,117 @@
+##### [Version 2.9.7](https://github.com/Codeinwp/themeisle-companion/compare/v2.9.6...v2.9.7) (2020-04-22)
 
+- New Hidden field in the contact form widget
+- Fix Mystock Import in the Gutenberg editor
+- Fix overlapping widgets names with Beaver Builder Pro version
+- Fix undefined index notice in Elementor Services widget
+- Upgrade FontAwesome icons to FA5 for Hestia default content
+- Make inline social icons round in Hestia
+- Fix inline social icons not applying on pages in Hestia
+
+##### [Version 2.9.6](https://github.com/Codeinwp/themeisle-companion/compare/v2.9.5...v2.9.6) (2020-04-06)
+
+* Update compatibility with WordPress 5.4 
+* Sync dependencies
+* Fix selective refresh for Hestia enhacements features
+
+##### [Version 2.9.5](https://github.com/Codeinwp/themeisle-companion/compare/v2.9.4...v2.9.5) (2020-03-30)
+
+* Fix notice on analytics module when the codes are missing
+* Update dependencies to the latest versions
+
+##### [Version 2.9.4](https://github.com/Codeinwp/themeisle-companion/compare/v2.9.3...v2.9.4) (2020-03-23)
+
+* Improve FA loading in Hestia compatibility features
+* Update dependencies
+
+##### [Version 2.9.3](https://github.com/Codeinwp/themeisle-companion/compare/v2.9.2...v2.9.3) (2020-03-05)
+
+* Update dependencies
+* Fix admin notice viewed by non-admins
+
+##### [Version 2.9.2](https://github.com/Codeinwp/themeisle-companion/compare/v2.9.1...v2.9.2) (2020-02-13)
+
+* Fix issue with cookie notices closing behavior. 
+* Fix notice when Otter and Orbit Fox were both active.
+
+##### [Version 2.9.1](https://github.com/Codeinwp/themeisle-companion/compare/v2.9.0...v2.9.1) (2020-02-05)
+
+* Fix possible error with edge case legacy module loading.
+
+#### [Version 2.9.0](https://github.com/Codeinwp/themeisle-companion/compare/v2.8.14...v2.9.0) (2020-02-03)
+
+* Update dependencies 
+* Remove legacy modules
+
+### v2.8.14 - 2019-12-02 
+ **Changes:** 
+ * Fix fatal error with Membership Pro
+* Various bug fixes to forms and Elementor widgets
+ 
+ ### v2.8.13 - 2019-11-18 
+ **Changes:** 
+ * Fix dependency issues on content forms module
+ 
+ ### v2.8.12 - 2019-11-18 
+ **Changes:** 
+ * sync dependencies
+ 
+ ### v2.8.11 - 2019-11-18 
+ **Changes:** 
+ * Various improvements for Beaver and Elementor form widgets.
+* Improvements to the post grid Elementor module.
+* Compatibility with WordPress 5.3
+ 
+ ### v2.8.10 - 2019-09-13 
+ **Changes:** 
+ * Development
+ 
+ ### v2.8.8 - 2019-09-11 
+ **Changes:** 
+ * Fixes Constant Warning for Beaver Widgets Module
+ 
+ ### v2.8.7 - 2019-08-13 
+ **Changes:** 
+ * Release
+ 
+ ### v2.8.6 - 2019-08-12 
+ **Changes:** 
+ * Improve script loading performance
+* Fix issue with mystock import
+ 
+ ### v2.8.5 - 2019-07-26 
+ **Changes:** 
+ * Merge pull request #368 from Codeinwp/master
+ 
+ ### v2.8.4 - 2019-05-23 
+ **Changes:** 
+ * minor adjustments to the dashboard UI
+* various updates to the Gutenberg blocks available
+* adds compatibility with WordPress 5.2
+ 
+ ### v2.8.3 - 2019-04-20 
+ **Changes:** 
+ * Fixed issue with constant not being checked in Otter
+* Added error handling in Backbone functions
+ 
+ ### v2.8.2 - 2019-04-18 
+ **Changes:** 
+ * Fix PHP notice
+ 
+ ### v2.8.1 - 2019-04-18 
+ **Changes:** 
+ * Fix issues with newsletter form
+ 
+ ### v2.8.0 - 2019-04-02 
+ **Changes:** 
+ * Fix font awesome menu icons issue in the menu builder
+* Fix issue on dismiss nag info for OrbitFox post install
+* Fix menu icon possible conflicts report info
+* FIx undefined error on new installs for image module
+* Fix issues with mystock import on certain use cases
+* Remove image CDN module for new users, service will be migrated to optimole plugin
+* Adds recommended plugins tab into Orbitfox settings page.
+ 
  ### v2.7.5 - 2019-02-02 
  **Changes:** 
  * Improve compatibility with Image CDN module by disabling the feature if Optimole exits already
@@ -277,4 +390,3 @@
 * Added simple reporting functionality.
 * Added support for upcoming caching, security and analytics feature.
 * Branded to Orbit Fox companion
- 
